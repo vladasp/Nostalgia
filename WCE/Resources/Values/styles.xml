@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <style name="Theme.Main" parent="android:Theme">
+    <item name="android:windowNoTitle">true</item>
+  </style>
+  <style name="Theme.Splash" parent="android:Theme">
+    <item name="android:windowBackground">@drawable/cover2</item>
+    <item name="android:windowNoTitle">true</item>
+  </style>
+  <style name="Theme.Game" parent="android:Theme">
+    <item name="android:windowBackground">@drawable/elect</item>
+    <item name="android:windowNoTitle">true</item>
+  </style>
+</resources>
