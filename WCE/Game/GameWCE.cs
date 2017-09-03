@@ -213,14 +213,10 @@ namespace WCE
             if(GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
             {
                 var builder = new AlertDialog.Builder(_context)
-                    .SetMessage("Exit?")
-                    .SetPositiveButton("Yes", delegate
-                    {
-                        Exit();
-                    })
-                    .SetNegativeButton("Cancel", delegate
-                    {
-                    }).Show();
+                    .SetMessage("Do you want exit?")
+                    .SetPositiveButton("Yes", delegate { Exit();})
+                    .SetNegativeButton("Cancel", delegate { })
+                    .Show();
             }
 
             _chickenLife.Update(3 - _lifes);
