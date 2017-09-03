@@ -1,3 +1,4 @@
+﻿using Android.App;
 using Android.Content;
 using Android.Widget;
 using Microsoft.Xna.Framework;
@@ -210,7 +211,17 @@ namespace WCE
             var touchCollection = TouchPanel.GetState();
 
             if(GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
-                Exit();
+            {
+                var builder = new AlertDialog.Builder(_context)
+                    .SetMessage("Exit?")
+                    .SetPositiveButton("Yes", delegate
+                    {
+                        Exit();
+                    })
+                    .SetNegativeButton("Cancel", delegate
+                    {
+                    }).Show();
+            }
 
             _chickenLife.Update(3 - _lifes);
 
@@ -319,10 +330,7 @@ namespace WCE
                     }
                 }
             }
-            catch(Exception ex)
-            {
-                Toast.MakeText(_context, ex.Message, ToastLength.Short).Show();
-            }
+            catch { }
             _isBusy = false;
 
             _leftBrockenChicken.Draw(SpriteBatch, _xScale, _yScale);

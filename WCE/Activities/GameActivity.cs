@@ -6,12 +6,12 @@ using Android.Views;
 
 namespace WCE
 {
-    [Activity(Label = "Nostalgia"
-        , Theme = "@style/Theme.Game"
-        , AlwaysRetainTaskState = true
-        , LaunchMode = LaunchMode.SingleInstance
-        , ScreenOrientation = ScreenOrientation.SensorLandscape
-        , ConfigurationChanges = ConfigChanges.Orientation | ConfigChanges.Keyboard | ConfigChanges.KeyboardHidden | ConfigChanges.ScreenSize)]
+    [Activity(Theme = "@style/Theme.Game",
+            MainLauncher = true,
+            AlwaysRetainTaskState = true,
+            LaunchMode = LaunchMode.SingleInstance,
+            ScreenOrientation = ScreenOrientation.ReverseLandscape,
+            ConfigurationChanges = ConfigChanges.Orientation | ConfigChanges.Keyboard | ConfigChanges.KeyboardHidden | ConfigChanges.ScreenSize)]
     public class GameActivity : Microsoft.Xna.Framework.AndroidGameActivity
     {
         private GameWCE game;

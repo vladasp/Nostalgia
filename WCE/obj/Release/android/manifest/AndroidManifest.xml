@@ -4,10 +4,8 @@
   <uses-sdk android:minSdkVersion="14" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.INTERNET" />
-  <application android:label="Nostalgia" android:icon="@drawable/icon" android:name="android.app.Application" android:allowBackup="true">
-    <activity android:alwaysRetainTaskState="true" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:label="Nostalgia" android:launchMode="singleInstance" android:screenOrientation="sensorLandscape" android:theme="@style/Theme.Game" android:name="md517233f801ce1c16c903902086f504743.GameActivity" />
-    <activity android:launchMode="singleInstance" android:screenOrientation="sensorLandscape" android:theme="@style/Theme.Main" android:name="md517233f801ce1c16c903902086f504743.MainActivity" />
-    <activity android:launchMode="singleInstance" android:noHistory="true" android:screenOrientation="sensorLandscape" android:theme="@style/Theme.Splash" android:name="md5b55ed25d1457ab240ff32c1ab5e49cdd.SplashScreen">
+  <application android:label="Волк ловит яйца" android:icon="@drawable/wolf_icon_gray" android:name="android.app.Application" android:allowBackup="true">
+    <activity android:alwaysRetainTaskState="true" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:launchMode="singleInstance" android:screenOrientation="reverseLandscape" android:theme="@style/Theme.Game" android:name="md517233f801ce1c16c903902086f504743.GameActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />

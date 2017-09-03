@@ -28,22 +28,6 @@ namespace WCE
 		{
 		}
 		
-		public partial class Animation
-		{
-			
-			// aapt resource value: 0x7f040000
-			public const int load_anim = 2130968576;
-			
-			static Animation()
-			{
-				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
-			}
-			
-			private Animation()
-			{
-			}
-		}
-		
 		public partial class Attribute
 		{
 			
@@ -60,11 +44,11 @@ namespace WCE
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f050001
-			public const int light_blue = 2131034113;
+			// aapt resource value: 0x7f030001
+			public const int light_blue = 2130903041;
 			
-			// aapt resource value: 0x7f050000
-			public const int light_green = 2131034112;
+			// aapt resource value: 0x7f030000
+			public const int light_green = 2130903040;
 			
 			static Color()
 			{
@@ -80,37 +64,13 @@ namespace WCE
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int animation1 = 2130837504;
+			public const int elect = 2130837504;
 			
 			// aapt resource value: 0x7f020001
-			public const int animation2 = 2130837505;
+			public const int wolf_icon = 2130837505;
 			
 			// aapt resource value: 0x7f020002
-			public const int animation3 = 2130837506;
-			
-			// aapt resource value: 0x7f020003
-			public const int animation4 = 2130837507;
-			
-			// aapt resource value: 0x7f020004
-			public const int animation5 = 2130837508;
-			
-			// aapt resource value: 0x7f020005
-			public const int animation6 = 2130837509;
-			
-			// aapt resource value: 0x7f020006
-			public const int animation7 = 2130837510;
-			
-			// aapt resource value: 0x7f020007
-			public const int animation8 = 2130837511;
-			
-			// aapt resource value: 0x7f020008
-			public const int cover2 = 2130837512;
-			
-			// aapt resource value: 0x7f020009
-			public const int elect = 2130837513;
-			
-			// aapt resource value: 0x7f02000a
-			public const int Icon = 2130837514;
+			public const int wolf_icon_gray = 2130837506;
 			
 			static Drawable()
 			{
@@ -122,58 +82,11 @@ namespace WCE
 			}
 		}
 		
-		public partial class Id
-		{
-			
-			// aapt resource value: 0x7f080002
-			public const int buttonExit = 2131230722;
-			
-			// aapt resource value: 0x7f080001
-			public const int buttonOptions = 2131230721;
-			
-			// aapt resource value: 0x7f080000
-			public const int buttonStartGame = 2131230720;
-			
-			// aapt resource value: 0x7f080003
-			public const int imageAnim = 2131230723;
-			
-			// aapt resource value: 0x7f080004
-			public const int textViewLoading = 2131230724;
-			
-			static Id()
-			{
-				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
-			}
-			
-			private Id()
-			{
-			}
-		}
-		
-		public partial class Layout
-		{
-			
-			// aapt resource value: 0x7f030000
-			public const int menu_layout = 2130903040;
-			
-			// aapt resource value: 0x7f030001
-			public const int splash_screen = 2130903041;
-			
-			static Layout()
-			{
-				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
-			}
-			
-			private Layout()
-			{
-			}
-		}
-		
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f060000
-			public const int ApplicationName = 2131099648;
+			// aapt resource value: 0x7f040000
+			public const int ApplicationName = 2130968576;
 			
 			static String()
 			{
@@ -188,14 +101,8 @@ namespace WCE
 		public partial class Style
 		{
 			
-			// aapt resource value: 0x7f070002
-			public const int Theme_Game = 2131165186;
-			
-			// aapt resource value: 0x7f070000
-			public const int Theme_Main = 2131165184;
-			
-			// aapt resource value: 0x7f070001
-			public const int Theme_Splash = 2131165185;
+			// aapt resource value: 0x7f050000
+			public const int Theme_Game = 2131034112;
 			
 			static Style()
 			{

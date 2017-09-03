@@ -2,14 +2,6 @@ WCE.GameActivity, WCE;md517233f801ce1c16c903902086f504743.GameActivity
 WCE.GameActivity, WCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md517233f801ce1c16c903902086f504743.GameActivity
 WCE.GameActivity;md517233f801ce1c16c903902086f504743.GameActivity
 wce.GameActivity;md517233f801ce1c16c903902086f504743.GameActivity
-WCE.MainActivity, WCE;md517233f801ce1c16c903902086f504743.MainActivity
-WCE.MainActivity, WCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md517233f801ce1c16c903902086f504743.MainActivity
-WCE.MainActivity;md517233f801ce1c16c903902086f504743.MainActivity
-wce.MainActivity;md517233f801ce1c16c903902086f504743.MainActivity
-WCE.Activities.SplashScreen, WCE;md5b55ed25d1457ab240ff32c1ab5e49cdd.SplashScreen
-WCE.Activities.SplashScreen, WCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5b55ed25d1457ab240ff32c1ab5e49cdd.SplashScreen
-WCE.Activities.SplashScreen;md5b55ed25d1457ab240ff32c1ab5e49cdd.SplashScreen
-wce.activities.SplashScreen;md5b55ed25d1457ab240ff32c1ab5e49cdd.SplashScreen
 Microsoft.Xna.Framework.AndroidGameActivity, MonoGame.Framework;md59e336b20c5f59a4196ec0611a339f132.AndroidGameActivity
 Microsoft.Xna.Framework.AndroidGameActivity, MonoGame.Framework, Version=3.6.0.1625, Culture=neutral, PublicKeyToken=null;md59e336b20c5f59a4196ec0611a339f132.AndroidGameActivity
 Microsoft.Xna.Framework.AndroidGameActivity;md59e336b20c5f59a4196ec0611a339f132.AndroidGameActivity
