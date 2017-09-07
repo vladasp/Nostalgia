@@ -1,6 +1,5 @@
 ﻿using Android.App;
 using Android.Content;
-using Android.Widget;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
