@@ -1,1 +1,0 @@
-<resources><style name="Theme.Game" parent="android:Theme"><item name="android:windowBackground">@drawable/elect</item><item name="android:windowNoTitle">true</item></style></resources>

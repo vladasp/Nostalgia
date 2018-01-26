@@ -1,9 +1,0 @@
-C:\Repositories\Nostalgia\WCE\obj\Release\android\assets\WCE.dll
-C:\Repositories\Nostalgia\WCE\obj\Release\android\assets\Java.Interop.dll
-C:\Repositories\Nostalgia\WCE\obj\Release\android\assets\Mono.Android.dll
-C:\Repositories\Nostalgia\WCE\obj\Release\android\assets\mscorlib.dll
-C:\Repositories\Nostalgia\WCE\obj\Release\android\assets\OpenTK-1.0.dll
-C:\Repositories\Nostalgia\WCE\obj\Release\android\assets\System.Core.dll
-C:\Repositories\Nostalgia\WCE\obj\Release\android\assets\System.dll
-C:\Repositories\Nostalgia\WCE\obj\Release\android\assets\MonoGame.Framework.dll
-C:\Repositories\Nostalgia\WCE\obj\Release\android\assets\System.Runtime.Serialization.dll
